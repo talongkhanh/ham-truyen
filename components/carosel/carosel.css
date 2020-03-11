@@ -24,7 +24,7 @@
 .crl-overlay {
     height: 25px;
     position: absolute;
-    bottom: 1px;
+    bottom: 0px;
     width: 100%;
     background: #000;
     opacity: 0.7;
