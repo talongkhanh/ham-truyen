@@ -1,0 +1,95 @@
+.navbar-nav li a {
+    color: white !important;
+    display: block;
+    line-height: 38px;
+    padding: 0;
+}
+.active {
+    background: #D00442 !important;
+}
+.mc-menu {
+    height: 38px;
+    background: #F80C54;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.navbar {
+    padding: 0;
+    margin: 0;
+    height: 38px;
+}
+.navbar-nav {
+    height: 38px;
+}
+.navbar-nav li {
+    margin-right: 15px;
+}
+.mc-content {
+    margin-top: 15px;
+}
+/* copy css crl */
+.crl {
+    height: 260px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    position: relative;
+}
+.crl-content {
+    height: 162px;
+    position: relative;
+    border: 1px solid#ccc;
+
+}
+.crl-content a {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.crl-img {
+    height: 160px;
+    transition: all 0.3s;
+    display: block;
+    overflow: hidden;
+}
+.crl-overlay {
+    height: 25px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: #000;
+    opacity: 0.7;
+}
+.crl-chapter {
+    height: 25px;
+    width: 100%;
+    position: absolute;
+    bottom: 1px;
+    line-height: 25px;
+    padding-left: 10px;
+    color: white;
+    display: block;
+}
+.crl-name {
+    max-height: 50px;
+    text-transform: capitalize;
+    margin: 5px 0px 10px 0px;
+    font-weight: 700;
+}
+.crl-content:hover {
+    border: 1px solid orange;
+}
+.crl-content .crl-chapter:hover {
+    color: #ff0;
+}
+.crl-name a {
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s;
+    font-size: 13px;
+    font-style: normal;
+}
+.crl-name a:hover {
+    color: #de4fcc;
+}
