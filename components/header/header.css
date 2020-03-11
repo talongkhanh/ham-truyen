@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
 }
 /* top header */
 .top-header {
     margin-top: 10px;
     background: white;
+    font-family: 'Oswald', sans-serif;
 }
 
 .bo {
@@ -31,6 +31,7 @@ input[type="text"] {
 .mid-header {
     margin-top: 5px;
     background: #103E4B;
+    font-family: 'Oswald', sans-serif;
 }
 
 .logo-left {
@@ -59,6 +60,7 @@ input[type="text"] {
 /* bot header */
 .bot-header {
     background: #191718;
+    font-family: 'Oswald', sans-serif;
 }
 
 .menu-2 a {
