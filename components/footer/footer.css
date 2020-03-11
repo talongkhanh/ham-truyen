@@ -1,0 +1,40 @@
+li {
+    text-decoration: none;
+    list-style: none;
+    flex-grow: 1;
+}
+li a{
+    display: block;
+    color: white;
+    font-weight: 700;
+    line-height: 40px;
+}
+li a:hover {
+    color: white;
+    text-decoration: none;
+}
+.menu {
+    justify-content: space-around;
+    
+}
+.ft-menu {
+    background: #0E3E4A;
+    min-height: 40px;
+}
+.ft-logo {
+    width: 90px;
+    height: 90px;
+}
+.ft-text {
+    height: 90px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 14px;
+}
+footer {
+    background: #222;
+    font-family: arial, sans-serif;
+    margin-bottom: 20px;
+}
