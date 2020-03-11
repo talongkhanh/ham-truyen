@@ -18,17 +18,17 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-li {
+.ds-the-loai li {
     list-style: none;
     text-decoration: none;
     width: 30%;
     line-height: 38px;
     text-align: left;
 }
-li a {
+.ds-the-loai li a {
     color: black;
 }
-li a:hover {
+.ds-the-loai li a:hover {
     color: black;
     text-decoration: none;
 }
